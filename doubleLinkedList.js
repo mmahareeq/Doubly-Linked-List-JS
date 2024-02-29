@@ -11,7 +11,6 @@ class DoubleLinkedList {
     }
 
     //  The push method takes a value as a parameter and assigns it as the tail of the list
-
     push(val) {
         if (!this.head && !this.tail) {
             let newNode = new Node(val);
@@ -28,7 +27,6 @@ class DoubleLinkedList {
     }
 
     // // The pop method removes the tail of the list
-
     pop() {
         if (!this.tail && !this.head) {
             return "linked list is empty"
